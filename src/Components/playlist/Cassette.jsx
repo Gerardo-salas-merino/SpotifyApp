@@ -1,4 +1,3 @@
-import { PencilIcon } from "../icons/Svgs";
 import { Link } from "react-router-dom"
 
 const Cassette = ({title, id, index}) => {
