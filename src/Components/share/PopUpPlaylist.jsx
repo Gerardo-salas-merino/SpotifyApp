@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ChangeIcon, PencilIcon } from '../icons/svgs'
+import { ChangeIcon, PencilIcon } from '../icons/Svgs'
 import '../../style.css';
 import './PopUp.css';
 import TrackList from './TrackList';
