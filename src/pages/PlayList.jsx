@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-
+import { SearchIcon } from '../Components/icons/Svgs'
 import PrincipalContainer from '../Components/layouts/PrincipalContainer'
 import { axiosMusic } from '../utils/configAxios'
 import Cassette from '../Components/playlist/Cassette'
@@ -28,7 +28,7 @@ const PlayList = () => {
     <PrincipalContainer>
       <div  className='flex items-center gap-2 bg-white/20 p-3 rounded-xl'>
         <span>
-          < SearchIcon />
+          <SearchIcon />
         </span>
 
         <input 
