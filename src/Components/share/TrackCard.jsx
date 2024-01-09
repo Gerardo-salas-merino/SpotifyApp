@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { AddTrackIcon, PlayIconTrack, RemoveTrackIcon } from '../icons/svgs'
+import { AddTrackIcon, PlayIconTrack, RemoveTrackIcon } from '../icons/Svgs'
 import { useDispatch } from 'react-redux'
 import { addTrack, deleteTrack } from '../../store/slices/playlist.slice'
 import { axiosMusic } from '../../utils/configAxios'
