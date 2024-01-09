@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { LogoutIcon, PlayIcon, PlaylistIcon } from "../icons/svgs"
+import { LogoutIcon, PlayIcon, PlaylistIcon } from "../icons/Svgs"
 import { useEffect, useState } from "react"
 import { logout } from "../../store/slices/user.slice";
 import { useDispatch, useSelector } from "react-redux";
