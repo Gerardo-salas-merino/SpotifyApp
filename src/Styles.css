@@ -1,0 +1,22 @@
+
+
+.cassette > div {
+    backface-visibility: hidden;
+    transition: transform 1s;
+}
+
+.cassette > .front {
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.cassette > .back {
+    transform: perspective(500x) rotateY(180deg);
+}
+
+.cassette.front > .front {
+    transform: perspective(500x) rotateY(0deg);
+}
+
+.cassette.back > .back{
+    transform: perspective(500x) rotateY(360deg);
+}
