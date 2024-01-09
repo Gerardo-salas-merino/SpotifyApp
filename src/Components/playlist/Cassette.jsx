@@ -15,7 +15,7 @@ const Cassette = ({title, id, index}) => {
 
         <div className='bg-white flex p-1 items-center absolute top-[16px] left-[20px] rounded-md w-[198px] text-sm'>
             <h4 className="text-black flex-1 line-clamp-1">{title}</h4>
-            <PencilIcon />
+            
         </div>
 
 
