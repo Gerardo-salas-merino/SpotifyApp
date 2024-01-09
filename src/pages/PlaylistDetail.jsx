@@ -6,6 +6,7 @@ import { ChangeIcon } from '../Components/icons/Svgs'
 import { axiosMusic } from '../utils/configAxios'
 import TrackList from '../Components/share/TrackList'
 
+
 const PlaylistDetail = () => {
   const [isShowFront, setIsShowFront] = useState(true);
   const [playlistInfo, setPlaylistInfo] = useState(null)
