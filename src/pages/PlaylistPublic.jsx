@@ -2,8 +2,7 @@ import PrincipalContainer from '../Components/layouts/PrincipalContainer'
 import { useEffect, useState } from 'react';
 import TrackList from '../Components/share/TrackList';
 import { useParams } from 'react-router-dom';
-import { PlusIcon } from '../Components/icons/svgs';
-import { ShareIcon, ChangeIcon } from '../Components/icons/svgs';
+import { PlusIcon, ShareIcon, ChangeIcon } from '../Components/icons/Svgs';
 import { axiosMusic } from '../utils/configAxios';
 import PreviewTrack from '../Components/share/PreviewTrack';
 
