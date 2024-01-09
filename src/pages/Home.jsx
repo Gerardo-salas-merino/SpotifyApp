@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { SearchIcon } from '../Components/icons/svgs'
+import { SearchIcon } from '../Components/icons/Svgs'
 import { axiosMusic } from '../utils/configAxios'
 import TrackList from '../Components/share/TrackList'
 import PrincipalContainer from '../Components/layouts/PrincipalContainer'
