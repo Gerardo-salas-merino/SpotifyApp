@@ -1,6 +1,6 @@
 import PrincipalContainer from '../Components/layouts/PrincipalContainer'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import { DeleteIcon, PencilIcon, SaveIcon, ShareIcon, ChangeIcon  } from '../Components/icons/Svgs'
+import { DeleteIcon, PencilIcon, SaveIcon, ShareIcon, ChangeIcon } from '../Components/icons/Svgs'
 import React, { useEffect, useRef, useState } from 'react'
 import { axiosMusic } from '../utils/configAxios'
 import TrackList from '../Components/share/TrackList'
