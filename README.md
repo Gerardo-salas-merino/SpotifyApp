@@ -1,4 +1,4 @@
-# React + Vite
+VER PROYECTO =>  https://spotify-app-1aja.vercel.app/register 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
